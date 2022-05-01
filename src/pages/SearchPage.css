@@ -1,0 +1,158 @@
+.searchpage{
+    width: 100vw;
+}
+
+.searchpage-logo{
+    height: 35px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.searchpage-header{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.searchpage-header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.searchpage-header-top-left{
+    display: flex;
+}
+
+
+.searchpage-header-top-left > .search > .search-input{
+    width: 750px;
+    height: 50px;
+    margin: unset;
+    box-shadow: -1px 1px 5px 0px grey;
+
+}
+
+.searchpage-header-top-left > .search{
+    margin-top: 35px;
+}
+
+.options-right{
+    display: flex;
+}
+
+.searchpage-header-bottom{
+    display: flex;
+    color: grey;
+    margin-bottom: 10px;
+    padding-left: 205px;
+
+}
+
+.active{
+    height: 100px;
+    box-shadow: 1px 2px 10px grey;
+}
+
+/* .active > .search{
+    margin-top: 0px;
+} */
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+.searchpage-option a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.searchpage-option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.searchpage-option a{
+    margin-left: 5px;
+}
+
+
+.searchpage-results{
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding-left: 210px; /*190 + 30*/
+
+}
+
+.searchpage-result{
+    margin: 35px 0;
+}
+
+.searchpage-result-count{
+    color: gray;
+    font-size: 14px;
+}
+
+ 
+.searchpage-result-title{
+    text-decoration: none;
+    color: #1a0dab;
+    font-family: Arial, sans-serif;
+}
+
+.searchpage-result-title:hover{
+    text-decoration: underline;
+}
+
+.searchpage-result-title > h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.searchpage-result-snippet{
+    margin-top: 5px;
+}
+
+
+.searchpage-result-display-link{
+    text-decoration: none;
+    color: black;
+    margin: 30px 0px;
+}
+
+@media (max-width:1400px){
+    .searchpage-header-bottom{
+        padding-left: 30px;
+    }
+
+    .searchpage-results{
+        padding-left: 30px;
+    }
+
+}
+
+@media (max-width:1175px) {
+
+    .searchpage-header-top-left > .search > .search-input{
+        width: 550px;
+    }
+
+}
+
+/* 
+@media (max-width: 1320px) {
+    
+    .options-right{
+        
+    }
+} */
