@@ -1,5 +1,7 @@
 # Google-Clone
 
+Tech: ReactJS, React Router, Context API, Firebase, Material UI
+
 My attempt at cloning Google's Home and Search page. 
 Willing to add more pages in the future.
 
