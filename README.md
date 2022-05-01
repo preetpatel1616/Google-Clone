@@ -8,7 +8,7 @@
 
 
 ### Tech
--ReactJS
+- ReactJS
 - React Router
 - Context API
 - Firebase
