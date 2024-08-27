@@ -1,5 +1,8 @@
 # Google-Clone
 
+### Link
+https://clone-1692b.web.app/
+
 
 ### About
 
@@ -27,6 +30,3 @@
 1. Git clone the file.
 2. Run 'npm install' in the terminal at the file directory.
 3. Finally run 'npm start' to start the app at your localhost.
-
-### Link
-https://clone-1692b.web.app/
