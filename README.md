@@ -1,5 +1,5 @@
 
-# Google Clone 🌐
+# react-google-search-clone 🌐
 
 ## Overview
 
